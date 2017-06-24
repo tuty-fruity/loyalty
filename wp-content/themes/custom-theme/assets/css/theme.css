@@ -1,0 +1,72 @@
+body {	
+	padding-top: 50px;
+}
+
+.splash {
+	background: #EEE;
+	height: 500px;
+}
+
+.small_splash {
+	background: #c6c6c6;
+	padding: 20px 0;
+	text-align: center;
+}
+
+.small_splash .social-media {
+	padding: 0;
+	float: right;
+	margin: 0;
+}
+.small_splash .social-media li {
+	display: inline-block;
+}
+.small_splash .social-media li span {
+	display: block;
+	width: 25px;
+	height: 25px;
+	background: #090;
+	border-radius: 50%;
+}
+
+.feeds h3 {
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.feeds ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.feeds ul li {
+	margin-bottom: 5px;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.list li {
+	width: 25%;
+	float: left;
+}
+.list li .box {
+	border-left: 1px solid #BBB;
+	height: 200px;
+	text-align: center;
+	padding: 50px 15px;
+}
+.list li .box .icon {
+	width: 50px;
+	height: 50px;
+	background: orange;
+	/*margin: 10px auto  10px auto;*/
+	margin: 0 auto 15px auto;
+	display: block;
+}
+
+.footer {
+	background: #BBB;
+	padding: 20px 0;
+}

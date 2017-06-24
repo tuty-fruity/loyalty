@@ -1,10 +1,6 @@
 <?php get_header(); ?>
-<style>
-.btn-edit {
-    width: 80px;
-    height: 35px;
-}
-</style>
+
+<div class="container">
 
 <legend><h1>Profile Page</h1></legend>
 
@@ -24,4 +20,13 @@
 
 <button id="edit-profile" class="btn btn-primary btn-edit">Edit</button>
 <button id="logout" class="btn btn-edit">Logout</button>
+</div>
+
+<style>
+.btn-edit {
+    width: 80px;
+    height: 35px;
+}
+</style>
+
 <?php get_footer(); ?>

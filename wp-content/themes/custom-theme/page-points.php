@@ -1,22 +1,24 @@
 <?php get_header();?>
 
-<legend><h1>Points Page</h1></legend>
+<div class="container">	
+	<legend><h1>Points Page</h1></legend>
 
-<p>Display reward points here</p>
+	<p>Display reward points here</p>
 
-<?php
+	<?php
 
-if(isset($_SESSION['id']))
-{
-    $customer_id = $_SESSION['id'];
+	if(isset($_SESSION['id']))
+	{
+	    $customer_id = $_SESSION['id'];
 
-    $customer = get_data('tbl_accounts', $customer_id);
+	    $customer = get_data('tbl_accounts', $customer_id);
 
-    echo "<h1>ID: $customer->id </h1>";
-    echo "<h1>Name: $customer->name </h1>";
-}
+	    echo "<h1>ID: $customer->id </h1>";
+	    echo "<h1>Name: $customer->name </h1>";
+	}
 
-?>
-<button id="logout"> Logout </button>
+	?>
+	<button id="logout"> Logout </button>
+</div>
 
 <?php get_footer();?>
